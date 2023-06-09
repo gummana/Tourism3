@@ -1,0 +1,162 @@
+body{
+    background-color:calc();
+}
+nav{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 20px;
+}
+nav li{
+    display: inline-block;
+    border-radius: 50px;
+}
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: tomato
+}
+nav li.active{
+    font-size: 25px;
+    margin: 20px;
+    background-color: palegoldenrod;
+
+}
+.login li{
+    font-size: 20px;
+    float: calc(top,right);
+    background-color: white;
+    color: green;
+}
+/* .login:checked ~ .container{
+     display: block;     */
+
+#cont{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+.abc{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid gray;
+    border-radius: 08px;
+    margin: 08px;
+    padding: 15px;
+}
+.def{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid white;
+    border-radius: 08px;
+    margin: 08px;
+    padding: 15px;
+}
+.ghi{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid red;
+    border-radius: 08px;
+    margin: 08px;
+    padding: 15px;
+}
+.jkl{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 08px;
+    margin: 08px;
+    padding: 15px;
+}
+.mno{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid yellow;
+    border-radius: 08px;
+    margin: 08px;
+    padding: 15px;
+}
+.pqr{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid orange;
+    border-radius: 08px;
+    margin: 08px;
+    padding: 15px;
+}
+.stu{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid green;
+    border-radius: 08px;
+    margin: 08px;
+    padding: 15px;
+}
+
+/* body{
+    background-color: orange;
+} */
+/* #color{
+    background-color: red;
+} */
+#search{
+    width: 360px;
+    border: 03px solid black;
+    padding: 08px;
+    border-radius: 30px;
+    float: calc(center);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.search1{
+    background: transparent;
+    float: inline-start;
+    border: 0px;
+    outline: 0px;
+    width: 330px;
+}
+section{
+    width: fit-content;
+    background-color: bisque;
+    text-shadow: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+} 
+ .box{
+    margin: auto;
+    /* box-shadow: 3px 3px 3px; */
+    border: 2px solid black;
+    background-color: rosybrown;
+} 
+#tell{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+#haji{
+    font-size: 25px;
+    color: red;
+}
+.foot{
+    border: 2px solid green;
+    /* color: white; */
+}
+p{
+    color: red;
+    font-size: 26px;
+    background-color: aqua;
+    text-align: center;
+}
+#move{
+    text-align: center;
+    float: calc(up);
+}
+footer{
+    background-color: peru;
+}
